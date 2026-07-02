@@ -117,7 +117,7 @@ export default class AddEditAdmissionLocation extends React.Component {
                 });
             })
             .catch(function(errorResponse) {
-                this.setState({
+                self.setState({
                     disableSubmit: false
                 });
 
